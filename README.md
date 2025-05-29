@@ -31,7 +31,7 @@ An interactive web application that demonstrates various CPU scheduling algorith
 
 1. Clone the repository:
 \`\`\`bash
-git clone https://github.com/yourusername/cpu-scheduler-simulator.git
+git clone  https://github.com/Heisenberg-tesla/cpu-scheduler-simulator.git
 cd cpu-scheduler-simulator
 \`\`\`
 
