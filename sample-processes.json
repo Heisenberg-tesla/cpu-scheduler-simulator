@@ -1,0 +1,30 @@
+[
+  {
+    "id": "P1",
+    "arrivalTime": 0,
+    "burstTime": 6,
+    "priority": 2,
+    "color": "#FF6B6B"
+  },
+  {
+    "id": "P2",
+    "arrivalTime": 1,
+    "burstTime": 4,
+    "priority": 4,
+    "color": "#4ECDC4"
+  },
+  {
+    "id": "P3",
+    "arrivalTime": 2,
+    "burstTime": 2,
+    "priority": 1,
+    "color": "#45B7D1"
+  },
+  {
+    "id": "P4",
+    "arrivalTime": 3,
+    "burstTime": 8,
+    "priority": 3,
+    "color": "#96CEB4"
+  }
+]
