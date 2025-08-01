@@ -1,73 +1,88 @@
-# CPU Scheduler Simulator
+⚙️ CPU Scheduler Simulator
+An interactive web application that demonstrates various CPU scheduling algorithms through real-time Gantt chart visualization. Ideal for learning and teaching OS concepts.
 
-An interactive web application that demonstrates various CPU scheduling algorithms with real-time visualization using Gantt charts.
 
-## Features
+🚀 Features
+🧠 Multiple CPU Scheduling Algorithms:
 
-- Support for multiple scheduling algorithms:
-  - First Come First Serve (FCFS)
-  - Shortest Job First (SJF)
-  - Shortest Remaining Time First (SRTF)
-  - Priority Scheduling (Preemptive/Non-preemptive)
-  - Round Robin
-- Interactive process input form
-- Real-time Gantt chart visualization using D3.js
-- Detailed metrics calculation:
-  - Completion Time
-  - Turnaround Time
-  - Waiting Time
-  - Response Time
-- Process import/export functionality
-- Modern UI with Tailwind CSS
+⏱️ First Come First Serve (FCFS)
 
-## Getting Started
+📏 Shortest Job First (SJF)
 
-### Prerequisites
+⏲️ Shortest Remaining Time First (SRTF)
 
-- Node.js (v14 or higher)
-- npm (v6 or higher)
+🎯 Priority Scheduling (Preemptive & Non-preemptive)
 
-### Installation
+🔄 Round Robin
 
-1. Clone the repository:
-\`\`\`bash
-git clone  https://github.com/Heisenberg-tesla/cpu-scheduler-simulator.git
+📝 Interactive Process Input Form
+
+📊 Real-Time Gantt Chart Visualization (via D3.js)
+
+📈 Detailed Metrics Calculation:
+
+✅ Completion Time
+
+🔁 Turnaround Time
+
+⌛ Waiting Time
+
+🚦 Response Time
+
+📥 Import/Export Process Data
+
+🧑‍🎨 Modern UI with Tailwind CSS
+
+🛠️ Getting Started
+📋 Prerequisites
+Node.js v14+
+
+npm v6+
+
+📦 Installation
+bash
+git clone https://github.com/Heisenberg-tesla/cpu-scheduler-simulator.git
 cd cpu-scheduler-simulator
-\`\`\`
 
-2. Install dependencies:
-\`\`\`bash
+bash
 npm install
-\`\`\`
 
-3. Start the development server:
-\`\`\`bash
+bash
 npm start
-\`\`\`
+💡 The app runs locally at http://localhost:3000
 
-The application will be available at http://localhost:3000
+🎮 Usage
+🎛️ Select a scheduling algorithm from the dropdown menu
 
-## Usage
+➕ Add process details:
 
-1. Select a scheduling algorithm from the dropdown menu
-2. Add processes by filling in the process details:
-   - Process ID
-   - Arrival Time
-   - Burst Time
-   - Priority (for Priority Scheduling)
-3. Set additional parameters if required:
-   - Time Quantum (for Round Robin)
-   - Preemptive mode (for Priority Scheduling)
-4. Click "Simulate" to run the scheduler
-5. View the results in the Gantt chart and metrics table
+🆔 Process ID
 
-## Built With
+🚪 Arrival Time
 
-- React.js
-- TypeScript
-- D3.js
-- Tailwind CSS
+🔧 Burst Time
 
-## License
+🏷️ Priority (for Priority Scheduling)
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+⚙️ Set additional options:
+
+⏱️ Time Quantum (for Round Robin)
+
+🔃 Preemptive mode toggle
+
+🧪 Click Simulate to visualize the scheduling
+
+📊 Analyze results via Gantt Chart & Metrics Table
+
+🧰 Built With
+⚛️ React.js
+
+🟦 TypeScript
+
+📉 D3.js
+
+🎨 Tailwind CSS
+
+📄 License
+This project is licensed under the MIT License — see the LICENSE file for details.
+
